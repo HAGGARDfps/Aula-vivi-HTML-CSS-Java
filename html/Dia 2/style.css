@@ -1,0 +1,23 @@
+body{
+    background-color:  #fff1e6 ;
+    width: 50%;
+    padding-left: 500px;
+    padding-top: 14px;
+}
+
+.data {
+    font-family: 'Sofia Sans', sans-serif;
+    color: rgba(0, 66, 153, 0.815);
+    
+}
+
+.titulo{
+    font-family: 'Teko', sans-serif;
+    color: #0077b6;
+
+}
+
+hr{
+    color: red;
+    
+}

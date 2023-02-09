@@ -1,0 +1,16 @@
+.box1 {
+    position: relative;
+    background-color: rgba(107, 179, 139, 0.37);
+    width: 500px;
+    left: 30%;
+}
+
+.box2 {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 400px;
+    margin: 100px;
+    bottom: 940px;
+    left: 10%;
+}

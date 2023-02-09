@@ -1,0 +1,15 @@
+** DOM JAVASCRIPT ** 
+
+Selecionando elementos no JS:
+
+Para selecionar qualquer elemento no 
+JavScript usamos o querySelector
+
+<div id="texto">Exemplo de texto </div>
+document.querySelector('#texto')
+
+- Trocar o texo de elementos no HTML:
+
+Para alterar o texto de um elemento HTML usamos o innerText
+document.querySelector('#texto').innerHTML = "<h1>Carioca</h1>"
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu No Kaisen</title>
+    <link rel="stylesheet" href="/src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <img class="logo" src="src/images/logo.png" alt="Logo jujutsu">
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="src/images/Titulo.png" alt="titulo">
+            <p class="descricao"> 
+                Jujutsu Kaisen é uma série sobrenatural de horror que acompanha
+                a vida de Yuji Itadori, um adolescente que se envolve em uma
+                batalha épica entre exorcistas e poderosasmaldições e acaba 
+                sendo possuído"
+            </p>
+            <button class="botao-trailer" onclick="modalAberto()">Veja o trailer</button>
+        </div>
+
+        <img class="Jujutsu" src="src/images/Principal.png" alt="jujutsu">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal" onclick="modalFechado()">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ynr6gnyu9NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </div>
+        </div>
+
+    </main>
+   
+    <script src="src/js/script.js"></script>
+</body>
+</html>
